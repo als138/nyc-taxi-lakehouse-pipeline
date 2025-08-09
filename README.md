@@ -74,13 +74,8 @@ python3 main.py
 
 ## 📊 Sample Output
 
-Top 10 average fares per route:
-+-------------+-------------+----------+
-|PULocationID |DOLocationID |avg_fare  |
-+-------------+-------------+----------+
-|117          |152          |73.90     |
-|220          |200          |73.90     |
-|168          |259          |73.69     |
+<img width="869" height="464" alt="Screenshot 2025-08-09 192115" src="https://github.com/user-attachments/assets/a0ab470a-82bc-437e-98c2-bbf0738ad701" />
+
 
 
 ## ✅ Features
