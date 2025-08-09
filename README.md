@@ -1,10 +1,8 @@
 
-```markdown
 # 🗽 NYC Taxi Lakehouse Project
 
 This project implements a Lakehouse architecture using PySpark and Delta Lake on a local environment. It processes the NYC Taxi Trip dataset through structured data engineering stages — ingest, clean, transform, and aggregate — while persisting everything in Delta format.
 
----
 
 ## 🎯 Project Objective
 
@@ -14,7 +12,6 @@ Build a modern data processing pipeline that transforms raw taxi trip data into 
 - **Silver Layer**: Cleans data, removes outliers and duplicates
 - **Gold Layer**: Aggregates data for analytical consumption
 
----
 
 ## 🧰 Tools & Technologies
 
@@ -24,20 +21,18 @@ Build a modern data processing pipeline that transforms raw taxi trip data into 
 - NYC Yellow Taxi Trip Dataset
 - Ubuntu 22.04 / Windows 11
 
----
 
 ## 📁 Folder Structure
 
-```
+
 /user/ali/
 ├── taxi_tripdata.csv          # Raw input file
 ├── delta/
 │   ├── nyc_taxi_raw           # Bronze layer
 │   ├── nyc_taxi_clean         # Silver layer
 │   └── nyc_taxi_summary       # Gold layer
-```
 
----
+
 
 ## 🚀 How to Run
 
@@ -75,11 +70,10 @@ python3 main.py
 - Calculate average fare per route
 - Save summary table in Delta format
 
----
+
 
 ## 📊 Sample Output
 
-```text
 Top 10 average fares per route:
 +-------------+-------------+----------+
 |PULocationID |DOLocationID |avg_fare  |
@@ -87,10 +81,7 @@ Top 10 average fares per route:
 |117          |152          |73.90     |
 |220          |200          |73.90     |
 |168          |259          |73.69     |
-...
-```
 
----
 
 ## ✅ Features
 
@@ -98,7 +89,6 @@ Top 10 average fares per route:
 - Scalable for growing datasets and future analytics
 - Ready for extension to RAG workflows, ETL scheduling, or BI integrations
 
----
 
 ## 🐛 Issues & Solutions
 
@@ -108,17 +98,12 @@ Top 10 average fares per route:
 | Version mismatches          | Aligned PySpark and Delta Lake versions |
 | SSL connection problems     | Used static IP or internal mirrors      |
 
----
 
 ## 👤 Author
 
 **Ali Salimi**  
-Student – Big Data course  
-Student ID: 4033614024
-
----
+Email: alisalimi6205@yahoo.com
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-```
